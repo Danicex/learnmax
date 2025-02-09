@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { AuthContext } from './Context/AuthContext'
 import { FaToggleOn, FaToggleOff } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 export default function LandingPage() {
