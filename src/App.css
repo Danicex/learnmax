@@ -1,0 +1,43 @@
+body.light {
+  background-color: rgb(243, 243, 243);
+  color: #181818;
+}
+body.light li a{
+  color: #000000;
+}
+body.dark li a{
+  color: #ffffff;
+}
+
+body.dark input{
+  color: #fff;
+}
+body.light input{
+color: #000000;
+}
+body.dark {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+body.light #trans-bg{
+  background-color: rgb(255, 255, 255);
+  color: #181818;
+}
+body.dark #trans-bg{
+  background-color: rgb(39, 39, 39);
+  color: #ffffff;
+}
+.maintext-pro{
+  height: 100dvh;
+  overflow: hidden;
+}
+.input-text{
+  position: absolute;
+  bottom: 10px;
+}
+.nav-container{
+  height: 100dvh;
+  position: absolute;
+  z-index: 4;
+  top: 0;
+}
