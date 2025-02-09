@@ -12,7 +12,7 @@ function App() {
     <AuthProvider>
        <Routes>
        <Route path='/' element={<LandingPage />}/>
-       <Route path='/home' element={<ProtectedRoute><TextInputProcessor /></ProtectedRoute>}/>
+       <Route path='/home' element={<TextInputProcessor />}/>
        </Routes>
     </AuthProvider>
   )
